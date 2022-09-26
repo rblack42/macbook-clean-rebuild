@@ -7,5 +7,7 @@ options:
   numbered: true
 chapters:
 - file: content/01-overview
+- file: content/installing-homebrew
+- file: content/installing-ansible
 - file: content/bibliography
 
