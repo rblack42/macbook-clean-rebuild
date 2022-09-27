@@ -2,4 +2,7 @@
 - hosts: local
   roles:
     - ping
+    - iterm2
+    - homebrew
+    - macvim
   

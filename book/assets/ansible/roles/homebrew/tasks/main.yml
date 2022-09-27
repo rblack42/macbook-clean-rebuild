@@ -1,0 +1,17 @@
+---
+- name: install direnv
+  homebrew:
+    name: 
+      - direnv
+      - gfortran
+      - gh
+    state: latest
+    update_homebrew: no
+
+- name: install cask applications
+  homebrew_cask:
+    name: 
+      - google-chrome
+      - dropbox
+    state: latest
+    update_homebrew: no
